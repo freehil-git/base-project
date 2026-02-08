@@ -1,0 +1,79 @@
+# ==========================================
+# 1. Embedded Systems (C/C++) Build Artifacts
+# ==========================================
+# Object files, dependency files, and libraries
+*.o
+*.obj
+*.d
+*.a
+*.lib
+
+# Executables and Flash Images
+*.elf
+*.bin
+*.hex
+*.map
+*.out
+*.exe
+
+# Common Build Directories
+build/
+Debug/
+Release/
+bin/
+obj/
+
+# ==========================================
+# 2. Robot Framework & Python
+# ==========================================
+# Robot Framework generated results
+output.xml
+log.html
+report.html
+xunit.xml
+
+# If you take screenshots on failure
+*.png
+*.jpg
+*.jpeg
+
+# Python bytecode and environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.env
+
+# ==========================================
+# 3. IDEs and Editors
+# ==========================================
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# JetBrains (Clion / PyCharm)
+.idea/
+
+# Eclipse / STM32CubeIDE
+.metadata/
+.settings/
+.project
+.cproject
+
+# General
+*.swp
+*.swo
+.history/
+
+# ==========================================
+# 4. OS Specific Junk
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+desktop.ini

@@ -1,0 +1,52 @@
+/**
+  * @file
+  * @brief
+  *       <b>File Map:</b>\n
+  *       <b>FH_Functions</b>, Section <b>FH_UART</b>, Peripheral <b>FH_UART05</b> (UART 05)\n
+  *       (The <b>UART05 (UART 05)</b> could be any interested UART of the micro-controller on which <b>FH</b> source code is ported)\n
+  *       Max index limit of UART05 buffers are defined here
+  *
+  *******************************************************************************
+  * SPDX-License-Identifier: Apache-2.0
+ *
+ * Copyright 2026 Vahid Hasirchi
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+  ********************************************************************************
+
+  *
+  * <b>For more information refer to FreeHIL.com</b>
+  *
+*/
+
+/* Define to prevent recursive inclusion -------------------------------------*/
+#ifndef FH_UART05_Configs_H
+#define FH_UART05_Configs_H
+
+/* Includes ------------------------------------------------------------------*/
+#include "../../../../FH_Embedded/FH_Root/FH_Perif/FH_UART/FH_UART_Configs/FH_UART_Configs.h"
+
+#ifdef FH_UART05    // It is configurable in FH_UART_Configs.h
+
+#if FH_UART_MaxPeripheralNumber > 0    // It is configurable in FH_DevicePeripherals.h
+
+	#define FH_UART05_ReceiveBufLength             64    // Max index limit of the FH_UART05_ReceiveBuf buffer is defined here
+	#define FH_UART05_SharedDataBufLength_8Bits    16    // Max index limit of the FH_UART05_SharedDataBuf_8Bits buffer is defined here
+	#define FH_UART05_SharedDataBufLength_16Bits   16    // Max index limit of the FH_UART05_SharedDataBuf_16Bits buffer is defined here
+	#define FH_UART05_SharedDataBufLength_32Bits   16    // Max index limit of the FH_UART05_SharedDataBuf_32Bits buffer is defined here
+
+#endif
+
+#endif
+
+#endif
