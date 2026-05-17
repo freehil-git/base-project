@@ -1,6 +1,6 @@
 ### FreeHIL 
 <p align="center">
-  <video src="https://github.com/user-attachments/assets/08b0b727-5e83-498b-8ab2-b02046af9ed1" autoplay loop muted playsinline width="100%"></video>
+  <video src="https://github.com/user-attachments/assets/fa5df409-c74f-4939-91c0-848407382c68" autoplay loop muted playsinline width="100%"></video>
 </p>
 This monorepo repository contains the base project of FreeHIL including the following items:
 
