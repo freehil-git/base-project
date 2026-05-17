@@ -1,4 +1,7 @@
 ### FreeHIL 
+<p align="center">
+  <video src="https://github.com/user-attachments/assets/08b0b727-5e83-498b-8ab2-b02046af9ed1" autoplay loop muted playsinline width="100%"></video>
+</p>
 This monorepo repository contains the base project of FreeHIL including the following items:
 
 1. **Core Logic** of Embedded Software Source Code
